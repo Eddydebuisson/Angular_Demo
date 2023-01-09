@@ -9,6 +9,8 @@ import { UsersComponent } from './component/users/users.component';
 import { AlertButtonComponent } from './component/alert-button/alert-button.component';
 import { ListeComponent } from './component/liste/liste.component';
 import { MagicComponent } from './component/magic/magic.component';
+import { ListeFiltrerComponent } from './component/liste-filtrer/liste-filtrer.component';
+import { UsersCardComponent } from './component/users-card/users-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MagicComponent } from './component/magic/magic.component';
     UsersComponent,
     AlertButtonComponent,
     ListeComponent,
-    MagicComponent
+    MagicComponent,
+    ListeFiltrerComponent,
+    UsersCardComponent
   ],
   imports: [
     BrowserModule,

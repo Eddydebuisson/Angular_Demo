@@ -1,0 +1,5 @@
+<p>TP1</p>
+<button (click)="clickMe()">Hide me </button>
+<ul *ngFor="let user of users"> 
+    <li *ngIf=" user.id%2==0 && cacher" >{{user.name}} {{user.id}}</li>
+</ul>
