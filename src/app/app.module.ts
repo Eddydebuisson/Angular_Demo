@@ -8,6 +8,7 @@ import { ButtonComponent } from './component/button/button.component';
 import { UsersComponent } from './component/users/users.component';
 import { AlertButtonComponent } from './component/alert-button/alert-button.component';
 import { ListeComponent } from './component/liste/liste.component';
+import { MagicComponent } from './component/magic/magic.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListeComponent } from './component/liste/liste.component';
     ButtonComponent,
     UsersComponent,
     AlertButtonComponent,
-    ListeComponent
+    ListeComponent,
+    MagicComponent
   ],
   imports: [
     BrowserModule,
