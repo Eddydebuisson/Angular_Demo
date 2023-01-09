@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./users.component.scss']
 })
 export class UsersComponent {
-
-}
+    nom :string = "François"
+    prenom :string = "claude"
+    image : string = "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2022-10/chinchilla-liberte-maison-062429.jpg"
+    job:string = ""
+  }
