@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ListeComponent {
 
-  
+  listes : string[] = ["Kiyo","Nefa", "Bloody"]
 
 }
