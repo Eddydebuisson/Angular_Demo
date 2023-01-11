@@ -18,6 +18,11 @@ import { TimezoneEnfantComponent } from './component/timezone-enfant/timezone-en
 import { ListeCourseComponent } from './component/liste-course/liste-course.component';
 import { ReactivListCourseComponent } from './component/reactiv-list-course/reactiv-list-course.component';
 import { FormBuilderListComponent } from './component/form-builder-list/form-builder-list.component';
+import { UsersFormsComponent } from './component/users-forms/users-forms.component';
+import { DataCourseComponent } from './component/output/data-course/data-course.component';
+import { FormCourseComponent } from './component/output/form-course/form-course.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSliderModule} from '@angular/material/slider'
 
 @NgModule({
   declarations: [
@@ -35,13 +40,18 @@ import { FormBuilderListComponent } from './component/form-builder-list/form-bui
     TimezoneEnfantComponent,
     ListeCourseComponent,
     ReactivListCourseComponent,
-    FormBuilderListComponent
+    FormBuilderListComponent,
+    UsersFormsComponent,
+    DataCourseComponent,
+    FormCourseComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
